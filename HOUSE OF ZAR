@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>House of Zar | Kitchen Appliances</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HOUSE OF ZAR</h1>
+    <p>Innovative Kitchen Appliances for Every Home</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>WELCOME TO HOUSE OF ZAR</h1>
+    <p class="tagline">Everything Home and Appliances</p>
+    <a href="#products" class="shop-button">Shop Now</a>
+  </div>
+
+  <section class="section" id="products">
+    <h2>Featured Appliances</h2>
+    <div class="products">
+
+      <!-- TAURUS Air Fryer -->
+      <div class="product">
+        <img src="attachments/Ef7DCRsmi28Grnwu6rjuJ.jpeg" alt="TAURUS Fredigora Aire Air Fryer Front View" />
+        <img src="attachments/rLTgXoAGRixEcueAhkrEE.jpeg" alt="TAURUS Fredigora Aire Air Fryer with Fries" />
+        <h3>TAURUS Air Fryer With Timer Digital Plastic Black 3.6L 1400W</h3>
+        <p><strong>Model:</strong> Fredigora Aire</p>
+        <p><strong>Capacity:</strong> 3.6 Liters</p>
+        <p><strong>Power:</strong> 1400W</p>
+        <p><strong>Features:</strong> Digital display, touch controls, 6 presets, non-stick basket</p>
+        <p><strong>Presets:</strong> Fries, Meat, Chicken, Fish, Shrimp, Cake</p>
+        <p><strong>Price:</strong> R1,499</p>
+        <a href="https://www.amazon.co.za/TAURUS-Fryer-Digital-Plastic-Fredigora/dp/B0C5RKGFXL" target="_blank" class="shop-button">Buy Now</a>
+      </div>
+
+      <!-- Hisense Microwave -->
+      <div class="product">
+        <img src="attachments/Hrpu4Q6YrHU8GZyXnvJ43.jpeg" alt="Hisense Microwave Front View" />
+        <img src="attachments/GjUmmyeh1pfDDMuomG7r9.jpeg" alt="Hisense Microwave with Dials" />
+        <h3>Hisense 20L Microwave Oven - White</h3>
+        <p><strong>Output Power:</strong> 700W</p>
+        <p><strong>Capacity:</strong> 20 Liters</p>
+        <p><strong>Features:</strong> Manual rotary dials, 5 power levels, 35-minute timer, removable glass turntable</p>
+        <p><strong>Design:</strong> Glossy black door, white body, compact footprint</p>
+        <p><strong>Dimensions:</strong> 35.2D x 44.6W x 24.2H cm</p>
+        <p><strong>Price:</strong> R749</p>
+        <a href="https://www.amazon.co.za/Hisense-20L-Microwave-Oven-Turntable/dp/B0FJYBJVVZ" target="_blank" class="shop-button">Buy Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Kitchen+1" alt="Kitchen 1" />
+      <img src="https://via.placeholder.com/300x200?text=Kitchen+2" alt="Kitchen 2" />
+      <img src="https://via.placeholder.com/300x200?text=Kitchen+3" alt="Kitchen 3" />
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📧 Email: <a href="mailto:houseofzar.co.za@gmail.com">houseofzar.co.za@gmail.com</a></p>
+    <p>📱 Phone: <a href="tel:+27747171219">+27 747 171 219</a></p>
+
+    <form action="mailto:houseofzar.co.za@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 House of Zar. All rights reserved.
+  </footer>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #002f6c;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+nav {
+  background: #003b8e;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.hero {
+  background: url('https://via.placeholder.com/1200x400?text=Kitchen+Appliances') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 6px #000;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.hero .tagline {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.shop-button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #fdb913;
+  color: #002f6c;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background: #f9f9f9;
+}
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+form {
+  margin-top: 2rem;
+  background: #eef2f7;
+  padding: 1rem;
+  border-radius: 8px;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #002f6c;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+button:hover {
+  background: #001f4a;
+}
+footer {
+  background: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 1rem;[&#95;{{{CITATION{{{&#95;3{](https://github.com/lzh-yi/Web-Fork-/tree/024b3e55587afdf9f05a677613a75f24e3d1803e/03-CSS%E8%BF%9B%E9%98%B6%2F04-%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%EF%BC%9F.md)</body>
+</html>
